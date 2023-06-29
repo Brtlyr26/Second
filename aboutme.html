@@ -4,7 +4,6 @@
     <title>About Me | Porfolio</title>
     <link rel="stylesheet" type="text/css" href="aboutme.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/girl.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +21,7 @@
             </div>
     
             <ul class="nav-list">
-                <li><a href="#">Home</a></li>
+                <li><a href="second.html">Home</a></li>
                 <li><a href="aboutme.html">About</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Works</a></li>
@@ -32,12 +31,36 @@
     </header>
    
     <section id="about">
-        <h2>About Me</h2>
-        <p>Here is some information about me...</p>
+        <h2>Introduction</h2>
+        <p>My name is Rhea Bartolay. I am an aspiring web developer with a passion for web development 
+            and design.</p>
     </section>
     <section id="projects">
         <h2>Projects</h2>
-        <p>Here are some of my projects...</p>
+        <p>Here are some of my projects:</p>
+    
+        <div class="carousel">
+            <div class="carousel-container">
+                <div class="project-container">
+                    <img src="img/speaknow.jpg" alt="Project 1 image">
+                    <div class="project-description">
+                        <h3>Project 1</h3>
+                        <p>This is a description of Project 1.</p>
+                    </div>
+                </div>
+    
+                <div class="project-container">
+                    <img src="img/girl.png" alt="Project 2 image">
+                    <div class="project-description">
+                        <h3>Project 2</h3>
+                        <p>This is a description of Project 2.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-button carousel-button-prev">Prev</button>
+            <button class="carousel-button carousel-button-next">Next</button>
+        </div>
     </section>
     <section id="contact">
         <h2>Contact</h2>
@@ -46,5 +69,6 @@
     <footer>
         <p>Rhea Bartolay | Portfolio © 2023</p>
     </footer>
+    <script type="text/javascript" src="aboutme.js"></script>
 </body>
 </html>
